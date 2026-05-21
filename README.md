@@ -26,7 +26,7 @@
 |------|------|--------|------|
 | [spectral-explorer](https://github.com/ruiverse/spectral-explorer) | 月球矿物光谱数据库检索与可视化 Web 系统 | Streamlit + Plotly | ✅ 已上线 |
 | [panda-habitat-assessment](https://github.com/ruiverse/panda-habitat-assessment) | 基于 SE-CNN + 随机森林的卧龙大熊猫震后生境评价 | PyTorch + scikit-learn + GDAL | ✅ 已上线 |
-| 遥感影像变化检测工具 | 基于 U-Net/Siamese 网络的双时相遥感影像变化检测 | PyTorch + Rasterio + Streamlit | 🚧 开发中 |
+| [rs-change-detection](https://github.com/ruiverse/rs-change-detection) | 基于 U-Net/Siamese 的双时相遥感影像变化检测 | PyTorch + Rasterio + Streamlit | ✅ 已上线 |
 | Hapke 模型参数反演交互工具 | 光谱数据上传 → 自动拟合 → 输出参数 + 拟合曲线 | Streamlit + SciPy + Plotly | 📋 计划中 |
 
 ## 📫 Contact
