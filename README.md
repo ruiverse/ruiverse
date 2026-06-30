@@ -90,11 +90,11 @@ Independently developed a dual-temporal change detection tool using U-Net / Siam
 
 [![GitHub](https://img.shields.io/badge/GitHub-ai--research--assistant-blue?logo=github)](https://github.com/ruiverse/ai-research-assistant)
 
-面向科研论文调研的 RAG Agent 原型。覆盖 PDF 解析 → 文本切分 → 混合检索 → LLM 问答 → 论文结构化总结的完整链路，含 PDF 噪声过滤机制与 48 个单元测试。
+面向科研论文调研与实验复现规划的 RAG Agent 原型。覆盖 PDF 解析 → 文本切分 → 混合检索 → RAG 问答 → 论文结构化总结 → 实验复现计划生成的完整链路，针对参考文献、作者信息、基金信息、公式和表格残留设计 chunk 噪声过滤机制，含 50+ 单元测试。
 
-A RAG Agent prototype for research paper analysis. Covers the full pipeline: PDF parsing → chunk splitting → hybrid retrieval → LLM-grounded Q&A → structured summarization, with PDF noise filtering and 48 unit tests.
+A RAG Agent prototype for scientific literature analysis and experiment planning. Covers PDF parsing, chunk splitting, hybrid retrieval, grounded Q&A, structured paper summarization, and reproduction-plan generation, with chunk-level PDF noise filtering and 50+ unit tests.
 
-`Python` `PyMuPDF` `TF-IDF` `DeepSeek API` `RAG` `Streamlit`
+`Python` `PyMuPDF` `TF-IDF` `DeepSeek API` `RAG` `Streamlit` `pytest`
 
 ---
 
